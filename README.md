@@ -13,4 +13,6 @@ python -m flighttracker list | history 1 | remove 1
 - **Notifications:** `console`, `ntfy` (phone push, set `NTFY_TOPIC`), `email` (`SMTP_HOST`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO`).
 - Alerts start after `--min-history` checks (default 3) so early checks don't all count as "lows". "All-time" means since you started tracking.
 
+Notebook: open `flight_tracker.ipynb` from the repo root (needs `jupyter`; the chart needs `matplotlib`).
+
 Tests: `python -m unittest discover tests`
